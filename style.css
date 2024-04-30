@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.navbar-bg{ 
+   background: rgb(31, 205, 205)!important;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 5px ;
+    box-shadow: 5px 5px 20px rgb(31, 205, 205);
+}
+
+.navbar .navbar-brand{
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(3, 62, 114) !important;
+
+}
+
+#navbarSupportedContent a{
+    border-bottom: 3.5px solid rgb(3,62,114) transparent;
+    
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 3.5px solid rgb(3,62,114);
+    transition: 0.5s;
+}
+
+.btn{
+    border: 1px solid black;
+    color: white;
+    margin-right: 10px;
+    background-color: #1cfd07;
+}
+
+.btn:hover{
+    background: rgb(122, 66, 110);
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    /***home****/
+
+#home{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./img/spices.jpg);
+    background-size: cover;
+    background-position:center;
+    flex-direction: column;
+
+}
+#home h1{
+    font-size: 120px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 2px 0px  #b30606;
+    text-shadow: 0px 2px 0px  #b30606;
+    text-shadow: 0px 2px 0px  #b30606;
+    text-shadow: 0px 2px 0px  #b30606;
+    text-shadow: 0px 2px 0px  #b30606;
+    text-shadow: 0px 2px 0px  #b30606;
+    text-shadow: 0px 2px 0px  #b30606;
+  
+}
+
+#home p{
+    font-size: 18px;
+    color: white;
+}
+
+#home .input-group{
+    width: 20%;
+    height: 25px;
+}
+#home .btn{
+    margin-left: 5px;
+    border: 1px solid #f9f6f6;
+}
+
+
+/*about us*/
+
+#about-us{
+    background: linear-gradient(to right,#67d1a6,#65f36c 100%);
+    padding: 45px 0px 45px 0px;
+
+
+}
+ h1{
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: #f9f6f6;
+    font-size: 15px;
+}
+img{
+    border-radius: 25px;
+    box-shadow:0 10px 10px 0 #f9f6f6;
+}
+
+/*product*/
+
+
+#Products h1{
+    color: black;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#product img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                 inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px 60px;           
+}
+
+.card:hover{
+
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                 inset -4px -4px 10px white;
+    transition: 0.2s;
+}
+
+
+
+
+#Contacts img{
+    width: 80%;
+    height: 100%;
+}
+
+#Contacts h1{
+    color: black;
+}
+
+.box{
+    background-color: rgb(185, 24, 177);
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+footer h5{
+
+    color: black;
+    text-align: center;
+}
+
+footer{
+    background-color: #65f36c;
+    padding: 3px;
+    margin: 5px;
+}
+
+
+
+
+
